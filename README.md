@@ -32,7 +32,7 @@ To run this project locally, you need Python installed on your system. Then, clo
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv\Scripts\activate  # On Mac use `venv/bin/activate`
 
 4. Install the required dependencies:
    

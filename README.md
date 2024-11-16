@@ -44,7 +44,7 @@ To run this project locally, you need Python installed on your system. Then, clo
    ```bash
    streamlit run app.py
 
-Your app will be available at "http://localhost:8501"
+Your app will be available at `http://localhost:8501`
 
 ## Usage
 

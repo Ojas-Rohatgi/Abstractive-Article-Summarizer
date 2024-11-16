@@ -11,7 +11,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.enums import TA_JUSTIFY
 
 # Initialize the summarization pipeline
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)
 
 # Set page layout to wide
 st.set_page_config(layout="wide")

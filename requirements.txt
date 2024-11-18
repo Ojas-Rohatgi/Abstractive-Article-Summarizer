@@ -3,6 +3,5 @@ requests~=2.32.3
 transformers~=4.46.2
 beautifulsoup4~=4.12.3
 reportlab~=4.2.5
-tf-keras
 torch
-tensorflow
+tf-keras
